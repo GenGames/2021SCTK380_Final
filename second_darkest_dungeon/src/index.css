@@ -1,13 +1,63 @@
 body {
   margin: 0;
+  background-color: #151515;
+  color: #ccc;
+  padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+p{
+  margin-top: 0px;
+}
+main{
+  display: grid;
+  grid-template-columns: 30% 45% 25%;
+  max-height: 90vh;
+}
+button{
+  background-color: transparent;
+  color: inherit;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #ccc;
+  color: #151515;
+  transition: .15s;
+}
+h4{
+  margin-top: 10px;
+  margin-bottom: 6px;
+  text-decoration: underline;
+}
+.parentItem{
+  border: 2px dotted white;
+  padding: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.subitem{
+  margin: 4px;
+  border: 1px solid lightgrey;
+  min-height: 25px;
+  padding: 5px;
+}
+.ActionButton{
+  width: fit-to-content;
+  display: inline-block;
+}
+
+#ActionableSection{
+}
+#DescriptionBox{
+}
+#Inventory{
 }

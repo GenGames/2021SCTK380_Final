@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import TheLongDark from './TheLongDark';
 import reportWebVitals from './reportWebVitals';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TheLongDark />
   </React.StrictMode>,
   document.getElementById('root')
 );
